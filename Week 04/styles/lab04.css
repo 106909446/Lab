@@ -1,0 +1,112 @@
+/*
+
+filename: lab04.css
+
+author: An
+
+created: 7/10/2026
+
+last modified: 7/10/2026
+
+description: Styles for the lab04.html file
+
+*/
+
+h1 {
+
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+
+}
+
+h2 {
+
+    color: rgb(0,128,128);
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+h1, h2 {
+
+    font-family: arial, sans-serif;
+
+}
+
+table, th, tr, td, thead, tbody {
+
+    border: 1px solid black;
+
+}
+
+#images {
+    text-align: center;
+}
+
+#headings_explained {
+
+    color: red;
+
+}
+
+.The_Month {
+    text-align: right;
+}
+
+.special {
+    color: darkorange;
+    font-weight:bold;
+}
+
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         }
+
+ol ul {
+
+    list-style-type: square;
+
+}
+
+.menu_items a:hover {
+
+    background-color:lightblue;
+    border:darkblue;
+
+}
+
+aside, footer {
+
+    font-style: italic;
+
+}
+
+
+body {
+
+    margin-left: 15em;
+    margin-right: 15em;
+    border-left: 3px #5b599f solid;
+    padding-left: 1em;
+
+}
+
+
+* {
+
+    font-family: calibri, sans-serif;
+    color: #2F4F4F;
+    /* set the page so that it is indented to the left */
+
+
+
+}
+
+/* 
+body {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoTXPh-uMj39OaszhWUMJRwYkL09XQtTEP_d6jh0vwQ&s=10")    ;
+
+} */
