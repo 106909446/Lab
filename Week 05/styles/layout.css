@@ -1,0 +1,127 @@
+/*
+
+filename: lab04.css
+
+author: An
+
+created: 15/10/2026
+
+last modified: 15/10/2026
+
+description: Styles for the lab04.html file
+
+*/
+
+p.menu {
+    display:inline-block;
+}
+
+header {
+
+    border: 1px darkgray solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color:lightgray;
+    text-align:center;
+
+}
+
+
+#lists {
+
+    float: left;
+
+}
+
+
+#tables {
+    margin: auto;
+    float: right;
+}
+
+#hyperlinks {
+
+    clear:both;
+    float: left;
+
+}
+
+#images {
+
+    float:right;
+
+}
+
+#images figure {
+
+    border: 2px solid #ccc;
+
+}
+
+
+#lists, #images, #tables, #hyperlinks{
+
+    width: 50%;
+    text-align: center;
+
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+
+aside:hover {
+
+    display: block;
+}
+
+aside {
+    
+
+
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    background: url(images/fade.jpg) repeat-x top left;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+
+}
+
+
+footer {
+
+    border: 4px double red;
+    border-style: none;
+    border-top-style: double;
+    clear: both;
+
+}
+
+
+article {
+    min-width: 30em;
+}
+
+
+footer p {
+    display:inline-block;
+    width:33%
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2){
+    text-align: center;
+}
+
+footer p:last-child{
+    float: right;
+    text-align: right;
+}
